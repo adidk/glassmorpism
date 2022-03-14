@@ -1,0 +1,33 @@
+body {
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #010101;
+}
+
+.card {
+    padding: 3rem 2.5rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.3);
+    border-top-color: rgba(0, 0, 0, 0.1);
+    border-left-color: rgba(0, 0, 0, 0.1);
+    border-bottom-color: rgba(225, 225, 225, 0.1);
+    border-right-color: rgba(225, 225, 225, 0.1);
+}
+
+.cb1 {
+    background-color: rgba(225, 225, 225, 0.1);
+}
+
+.btn-primary {
+    background-color: #0d6efd2e;
+    border-top-color: #094eb42e;
+    border-left-color: #094eb42e;
+    border-bottom-color: #5798fa2e;
+    border-right-color: #5798fa2e;
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
+    text-decoration: solid;
+}
